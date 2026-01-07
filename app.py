@@ -36,7 +36,8 @@ def scrape_leads():
         
         # 3. JustDial Scraping
         print("Starting JustDial...")
-        justdial_leads = scrape_justdial(keyword, city, limit)
+        
+        justdial_leads =[] # scrape_justdial(keyword, city, limit)
 
         # 4. Cleaning & Merging (Ye aapke cleaner.py se aa raha hai)
         print("Merging Data...")

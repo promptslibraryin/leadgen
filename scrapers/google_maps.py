@@ -89,6 +89,7 @@ def scrape_google_maps(keyword, city, limit=50):
                         'phone': None,
                         'website': None,
                         'address': None,
+                        'maps_url': url,
                         'source': 'Google Maps'
                     }
 
